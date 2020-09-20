@@ -36,5 +36,6 @@ const projectData = [
     githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux'
   },
 ];
+const projectArray = () => projectData;
 
-export default { projectData };
+export default { projectArray };

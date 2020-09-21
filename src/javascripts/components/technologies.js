@@ -1,6 +1,6 @@
 const techUsed = () => {
   const domString = $('#technologiesPage').html(`
-  <h3>Technology Used</h3>
+  <div class='tech-container'><h3>Technology Used</h3>
   <ul class="list-group">
     <li class="list-group-item">HTML 5</li>
     <li class="list-group-item">CSS</li>
@@ -9,7 +9,8 @@ const techUsed = () => {
     <li class="list-group-item">GitHub</li>
     <li class="list-group-item">Firebase</li>
     <li class="list-group-item">Axios</li>
-  </ul>`);
+  </ul>
+  </div>`);
   return domString;
 };
 
